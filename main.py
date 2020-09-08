@@ -24,4 +24,15 @@ def displayBoard(puzzle):
             else:
                 print(str(puzzle[i][j]) + " ", end="")
 
+
+
+#def emptyPosition(puzzle):
+    # Returns the position of the empty space in the puzzle
+
+#def isValid(puzzle, position, number):
+    # Validates the given number in the position of the board
+
+#def backtracker(puzzle):
+    # Solvers the puzzle with a backtracking algorithm
+
 displayBoard(puzzle)
